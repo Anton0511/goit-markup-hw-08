@@ -1,0 +1,34 @@
+@import 'base/normalize';
+@import 'base/colors';
+@import 'base/fonts';
+@import 'base/typography';
+@import 'base/reset';
+@import 'base/adaptive';
+@import 'base/base';
+
+@import 'mix/mixins';
+@import 'mix/placeholders';
+
+@import 'components/container';
+@import 'components/logo/logo';
+@import 'components/head/header';
+@import 'components/head/navigation';
+@import 'components/head/contacts';
+@import 'components/head/social';
+@import 'components/index/hero';
+@import 'components/index/benefits';
+@import 'components/index/activity';
+@import 'components/index/team';
+@import 'components/index/clients';
+
+@import 'components/footer/contacts';
+@import 'components/footer/join';
+@import 'components/footer/subscribe';
+
+@import 'components/mod/modal';
+@import 'components/mod/modal-input';
+@import 'components/mod/modal-agreement';
+
+@import 'components/portfolio/common';
+@import 'components/portfolio/filter';
+@import 'components/portfolio/cards';

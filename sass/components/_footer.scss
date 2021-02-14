@@ -1,0 +1,82 @@
+footer {
+  background-color: getColor("dark");
+}
+
+.footer {
+  @media screen and (max-width: 1199px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  &-wrapper {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+    }
+    @media screen and (min-width: 1200px) {
+      display: flex;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
+.footer-contacts {
+  &__item {
+    @media screen and (max-width: 767px), (min-width: 1200px) {
+      &:last-child {
+        margin-bottom: 60px;
+      }
+    }
+
+    &:not(:last-child) {
+      margin-top: 9px;
+      margin-bottom: 9px;
+    }
+
+    @media screen and (max-width: 767px) {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  &__street {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 9px;
+
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: getColor("white");
+    font-style: normal;
+
+    @media screen and (max-width: 767px) {
+      text-align: center;
+    }
+  }
+
+  &__link {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: getColor("contacts-footer");
+    text-decoration: none;
+    font-style: normal;
+  }
+  &__link:hover {
+    color:
+    getColor("blue");
+  }
+  &__link:focus {
+    color:
+    getColor("blue");
+  }
+}
